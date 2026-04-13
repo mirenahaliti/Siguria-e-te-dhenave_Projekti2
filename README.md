@@ -16,4 +16,4 @@ Ky është një algoritëm i tipit mono-alphabetic substitution cipher, i përdo
 
 Logjika: Çdo shkronjë e alfabetit zëvendësohet me një simbol grafik që korrespondon me një pjesë të caktuar të një rrjete gjeometrike.
 
-Mekanizmi: Duke qenë se terminalet standarde (CLI) kanë kufizime në shfaqjen e simboleve grafike, implementimi ynë përdor karaktere string (si |_|, _|, [-]) për të vizualizuar format gjeometrike. Kjo metodë ruan autenticitetin e algoritmit duke e bërë atë të ekzekutueshëm në çdo mjedis programimi.
+Mekanizmi: Duke qenë se terminali i kompjuterit nuk mund të vizatojë vija gjeometrike, kemi përdorur ASCII mapping. Kjo do të thotë që çdo shkronjë e kemi lidhur me karaktere tekstuale që imitojnë formën e simbolit origjinal (p.sh. |_| për B ose [-] për E). Kjo zgjedhje e bën kodin tonë të ekzekutueshëm në çdo mjedis, pa pasur nevojë për librari grafike, duke ruajtur kështu logjikën e algoritmit Masonik.
