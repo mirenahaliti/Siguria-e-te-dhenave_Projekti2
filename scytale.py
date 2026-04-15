@@ -1,7 +1,6 @@
 import math
 
 def scytale_encrypt(plain_text: str, key: int) -> str:
-    """Enkripton duke rregulluar tekstin në një matricë me 'key' rreshta."""
     text = clean_input(plain_text)
     if not text: return ""
     
@@ -14,8 +13,8 @@ def scytale_encrypt(plain_text: str, key: int) -> str:
         cipher_text[i % num_cols] += char
     return "".join(cipher_text)
 
+
 def scytale_decrypt(cipher_text: str, key: int) -> str:
-    """Dekripton duke përdorur inversin e kolonave."""
     text = clean_input(cipher_text)
     if not text: return ""
     
