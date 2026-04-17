@@ -1,3 +1,5 @@
+import math
+from utils import clean_input
 PIGPEN_DICT = {
     'A': '_|',  'B': '|_|', 'C': '|_',
     'D': '[|',  'E': '[-]', 'F': '|]',
