@@ -1,7 +1,6 @@
-
-
-
-
+from utils import get_non_empty_input, get_integer_key, get_menu_choice, get_validated_input, validate_pigpen_text, clean_input
+from scytale import scytale_encrypt, scytale_decrypt
+from pigpen import pigpen_encrypt, pigpen_decrypt
 
 def main():
     print("=" * 50)
